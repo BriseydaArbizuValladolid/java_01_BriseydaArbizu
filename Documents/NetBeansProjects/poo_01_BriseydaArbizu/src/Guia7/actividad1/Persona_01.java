@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Guia7.actividad1;
 
-/**
- *
- * @author lenovo
- */
-public class Persona_01 {
+package Guia7.actividad1;
     
+
+public class Persona_01 {
+     String nombre, apellido, mostrarDatos;
+     int edad;
+    public void nombre (){
+    nombre = "Briseyda";
+    }
+    public void apellido (){
+    apellido = "Arbizu";
+    }
+    public void edad (){
+    edad = 18;
+    }
+    public void mostrarDatos (){
+        System.out.println( "\nNombre: " + nombre + "\nApellido: " + apellido + "\nEdad: " + edad);
+    }
 }
